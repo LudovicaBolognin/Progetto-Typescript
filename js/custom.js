@@ -87,7 +87,10 @@ function start() {
 }
 function stop() {
     clearInterval(timer);
-    print();
+    //print();
+    hrs = 0;
+    min = 0;
+    sec = 0;
 }
 btnEffChiamata === null || btnEffChiamata === void 0 ? void 0 : btnEffChiamata.addEventListener('click', () => {
     console.log(arrayUtente);

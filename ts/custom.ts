@@ -97,7 +97,10 @@ function start(): void {
 }
 function stop(): void {
     clearInterval(timer);
-    print();
+    //print();
+    hrs = 0;
+    min = 0;
+    sec = 0;
 }
 
 btnEffChiamata?.addEventListener('click', () => {
