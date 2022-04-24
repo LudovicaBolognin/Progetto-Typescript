@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progetto Settimana 8 - Smartphone - Typescript</title>
+    <meta name="description" content="Versione Personalizzata del Progetto - Settimana 8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header><h1 id="nuovoUtente">Realizzazione per un Utente</h1></header>
+    <form id="formCreaUtente">
+        <input type="text" name="nome" id="nome" placeholder="Inserire nome">
+        <input type="text" name="cognome" id="cognome" placeholder="Inserire cognome">
+        <button type="button" id="btnCreaUtente">Crea nuovo Utente</button>
+    </form>
+    <form id="formAzioni">
+        <select name="ricarica" id="ricarica">
+            <option selected>Seleziona la ricarica da effettuare:</option>
+  <option value="10">10 €</option>
+  <option value="20">20 €</option>
+  <option value="50">50 €</option>
+</select>
+<button type="button" id="btnRicarica">Ricarica</button> Hai ricaricato di: <span id="ric"></span>€
+<p>Numero chiamate effettuate: <span id="chiamateEffettuate">0</span></p>
+    </form>
+    
+    <div class="smartphone">
+        <div class="content">
+            <button id="effettuaChiamata">Effettua la chiamata</button>
+            <button id="terminaChiamata">Termina la chiamata</button>
+            <p>Durata minuti chiamata: <span id="tempo">00:00:00</span></p>
+            <p>Costo totale: <span id="costo">0 €</span></p>
+            <button id="saldoResiduo">Saldo residuo</button>
+            <span id="creditoTotale"></span>
+          <!-- <iframe src="/w3css/tryw3css_templates_band.htm" style="width:100%;border:none;height:100%"> -->
+        </div>
+      </div>
+    <script src="js/custom.js"></script>
+</body>
+</html>

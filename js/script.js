@@ -36,6 +36,7 @@ let ThirdUser = new User('Terzo', 'Utente');
 FirstUser.ricarica(20);
 FirstUser.chiamata(5);
 FirstUser.chiamata(7);
+FirstUser.getNumeroChiamate();
 SecondUser.ricarica(20);
 console.log(FirstUser);
 console.log(SecondUser);
